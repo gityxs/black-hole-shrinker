@@ -15,9 +15,12 @@ var cnItems = {
     'Quarks': '夸克',
     'Toggle Quark': '切换夸克',
     'Turn On Free Play': '开启自由游戏',
-    'More Quarks': '更多夸克',
+    'More': '更多',
     'You have': '你有',
-    'Heavier Quarks': '重夸克',
+    'Heavier': '重',
+    'Autoclick Faster': '快速自动点击',
+    'Fast Clicker': '快速点击器',
+    'My Discord!': '我的 Discord!',
     '': '',
     '': '',
     '': '',
@@ -33,10 +36,7 @@ var cnItems = {
     '': '',
     '': '',
     '': '',
-    '': '',
-    '': '',
-    '': '',
-    'Spawn heavier Quarks': '产生重夸克',
+    'Spawn heavier': '产生重',
     'Spawn more Quarks per click': '每点击产生更多夸克',
 
     //原样
@@ -116,7 +116,7 @@ var cnPostfix = {
     "  ": "",
     " ": "",
     "\n": "",
-    "": "",
+    " Quarks": "夸克",
     "": "",
     "": "",
     "": "",
@@ -150,7 +150,6 @@ var cnExcludePostfix = [
 //原样输出的字段：(.+)
 var cnRegReplace = new Map([
     [/^requires ([\d\.]+) more research points$/, '需要$1个研究点'],
-    [/^(\d+) Quarks$/, '$1 夸克'],
     [/^Cost: (\d+) RP$/, '成本：$1 皇家点数'],
     [/^Usages: (\d+)\/$/, '用途：$1\/'],
     [/^workers: (\d+)\/$/, '工人：$1\/'],
