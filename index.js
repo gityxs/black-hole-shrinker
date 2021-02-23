@@ -100,7 +100,7 @@ function screenUpdate() {
     c.font = `bold ${0.5*Math.sin(sessionTickSpent/100)+5}vh Space Mono`;
     c.textBaseline = 'middle';
     c.fillStyle = '#cfc811';
-    var txtToWrite = `You beat the game! Thanks for playing!`;
+    var txtToWrite = `你通关了游戏！ 感谢参与！`;
     c.fillText(txtToWrite, canvas.width/2-c.measureText((txtToWrite).toString()).width/2, canvas.height/2);
   }
 
