@@ -92,7 +92,7 @@ function screenUpdate() {
     c.font = `bold ${0.5*Math.sin(sessionTickSpent/100)+5}vh Space Mono`;
     c.textBaseline = 'middle';
     c.fillStyle = '#fff';
-    var txtToWrite = `Click here to Make Quarks`;
+    var txtToWrite = `点击这里生成夸克`;
     c.fillText(txtToWrite, canvas.width/2-c.measureText((txtToWrite).toString()).width/2, canvas.height/2);
   }
   if (game.mass <= 1) {
